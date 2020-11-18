@@ -1,0 +1,55 @@
+/* =============
+    Demo
+============= */
+
+// .circle {
+//     border-radius: 100px;
+//     margin: auto;
+//     border: 30px solid $purple;
+// }
+
+// .cA {
+//     border-right: white;
+//     border-bottom: white;
+// }
+
+// .cB {
+//     border-left: white;
+//     border-top: white;
+// }
+
+// #circle1 {
+//     height: 50px;
+//     width: 50px;
+// }
+
+// #circle2 {
+//     height: 100px;
+//     width: 100px;
+//     border-bottom: white;
+// }
+
+// #circle3 {
+//     height: 150px;
+//     width: 150px;
+//     border-top: white;
+// }
+
+// #circle4 {
+//     height: 200px;
+//     width: 200px;
+// }
+
+#trident-dashboard-svg{
+    display: grid;
+    grid-template-columns: auto 50% auto;
+    grid-template-areas: ". svg .";
+
+    >div{
+        grid-area: svg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
