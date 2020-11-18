@@ -392,3 +392,5 @@ textarea {
     justify-content: center;
     align-items: center;
     height: 100vh; }
+  #trident-dashboard-svg svg {
+    height: 100%; }

@@ -54,6 +54,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/colicoid-logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/colicoid-logo.html",
+		"oF": 0
+		},
 	"/dev/content/demo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -86,6 +94,17 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
+	"/dev/js/coli-sphere.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/coli-sphere-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
@@ -94,17 +113,6 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/smoke.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/smoke-min.js",
-		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
