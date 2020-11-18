@@ -1,9 +1,11 @@
-import { gsap } from "gsap"
+import { gsap } from "gsap";
 
-var screenTL = gsap.timeline();
+gsap.set("#Dashboard", { transformOrigin: "center center" })
 
 export function screenAnimation() {
-    screenTL.from("Dashboard", { duration: 1, scaleX: 0 });
+    var screenTL = gsap.timeline();
+
+    screenTL.from("#Dashboard", { duration: 0.5, scaleY: 0, ease: "none" })
 
     return screenTL;
 }
