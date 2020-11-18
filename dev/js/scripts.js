@@ -1,7 +1,7 @@
 import { gsap } from "gsap"
 
-import { sphereAnimation } from "./coli-sphere.js"
+import { screenAnimation } from "./screen.js"
 
 var mainTL = gsap.timeline();
 
-mainTL.add(sphereAnimation());
+mainTL.add(screenAnimation());
