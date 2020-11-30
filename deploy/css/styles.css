@@ -394,3 +394,6 @@ textarea {
     height: 100vh; }
   #trident-dashboard-svg svg {
     height: 100%; }
+
+.hidden {
+  visibility: hidden; }

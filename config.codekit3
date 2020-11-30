@@ -78,6 +78,14 @@
 		"oAP": "/dev/content/demo.html",
 		"oF": 0
 		},
+	"/dev/content/trident.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/trident.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -101,6 +109,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/logo-fade.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/logo-fade-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/rise.js": {
 		"bF": 0,
@@ -143,6 +162,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/trident-morph.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/trident-morph-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
