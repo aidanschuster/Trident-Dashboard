@@ -62,6 +62,14 @@
 		"oAP": "/dev/content/colicoid-logo.html",
 		"oF": 0
 		},
+	"/dev/content/console-base.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/console-base.html",
+		"oF": 0
+		},
 	"/dev/content/demo.kit": {
 		"cB": 0,
 		"ft": 2048,
