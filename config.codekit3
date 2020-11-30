@@ -294,6 +294,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/gsap-bonus.tgz": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/gsap-bonus.tgz",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
