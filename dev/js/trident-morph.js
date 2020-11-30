@@ -1,14 +1,15 @@
 import { gsap } from "gsap";
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
-gsap.set(".center-top", { transformOrigin: "center top" })
-
 gsap.registerPlugin(MorphSVGPlugin);
 
 export function tridentMorph() {
     var hiveMorphTL = gsap.timeline();
-    hiveMorphTL.to("#Hive-outline", { duration: 1, morphSVG: "#Head-outline" })
-        .to("#tail-morph", { duration: 1, morphSVG: "#Middle-tentacle-outline" })
+    hiveMorphTL.from("#Hive-outline", { duration: 0.25, alpha: 0 }, "morph-reveal")
+        .from("#tail-morph", { duration: 0.25, alpha: 0 }, "morph-reveal")
+        .to("#Hive-outline", { duration: 0.5, morphSVG: "#Head-outline" }, "morph-together")
+        .to("#tail-morph", { duration: 0.5, morphSVG: "#Middle-tentacle-outline" }, "morph-together")
+        .from("#Trident", { duration: 0.5, alpha: 0 })
 
     return hiveMorphTL
 }

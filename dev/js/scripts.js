@@ -14,8 +14,8 @@ var mainTL = gsap.timeline();
 mainTL.add(screenAnimation())
     .add(rollAnimation())
     .add(riseAnimation())
-    .add(logoFade())
-    .add(tridentMorph())
+    .add(logoFade(), "morph")
+    .add(tridentMorph(), "morph")
 
 
 GSDevTools.create();
