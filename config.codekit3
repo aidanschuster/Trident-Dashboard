@@ -78,20 +78,12 @@
 		"oAP": "/dev/content/demo.html",
 		"oF": 0
 		},
-	"/dev/content/morph-paths-end.kit": {
+	"/dev/content/morph-paths.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/content/morph-paths-end.html",
-		"oF": 0
-		},
-	"/dev/content/morph-paths-start.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/morph-paths-start.html",
+		"oAP": "/dev/content/morph-paths.html",
 		"oF": 0
 		},
 	"/dev/content/trident.kit": {
