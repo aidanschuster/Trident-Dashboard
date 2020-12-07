@@ -94,6 +94,14 @@
 		"oAP": "/dev/content/trident.html",
 		"oF": 0
 		},
+	"/dev/content/weapons-display.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/weapons-display.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -191,6 +199,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/trident-morph-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/weapons.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/weapons-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

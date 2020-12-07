@@ -9,6 +9,7 @@ import { riseAnimation } from "./rise.js"
 import { tridentMorph } from "./trident-morph.js"
 import { logoFade } from "./logo-fade.js"
 import { tentacleSway } from "./tentacle-sway.js"
+import { weaponsDisplay } from "./weapons.js"
 
 var mainTL = gsap.timeline();
 
@@ -19,6 +20,7 @@ mainTL.add(screenAnimation())
     .add(riseAnimation())
     .add(logoFade(), "morph")
     .add(tridentMorph(), "morph")
+    .add(weaponsDisplay())
 
 
 GSDevTools.create();
