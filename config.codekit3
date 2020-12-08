@@ -78,6 +78,14 @@
 		"oAP": "/dev/content/demo.html",
 		"oF": 0
 		},
+	"/dev/content/gauges.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/gauges.html",
+		"oF": 0
+		},
 	"/dev/content/morph-paths.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -125,6 +133,17 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/gauge-wipe.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/gauge-wipe-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/logo-fade.js": {
 		"bF": 0,
