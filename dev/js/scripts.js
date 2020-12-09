@@ -14,6 +14,7 @@ import { fuelDisplay } from "./fuel-wipe.js"
 import { radarDisplay } from "./radar-wipe.js"
 import { speedDisplay } from "./speed-wipe.js"
 import { radarSweep } from "./radar-sweep.js"
+import { engineLaunch } from "./engine.js"
 
 var mainTL = gsap.timeline();
 
@@ -29,6 +30,7 @@ mainTL.add(screenAnimation())
     .add(fuelDisplay(), "gauge")
     .add(radarDisplay(), "gauge")
     .add(speedDisplay(), "gauge")
+    .add(engineLaunch())
 
 
 GSDevTools.create();
