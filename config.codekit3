@@ -134,13 +134,13 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/js/gauge-wipe.js": {
+	"/dev/js/fuel-wipe.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/dev/js/gauge-wipe-min.js",
+		"oAP": "/dev/js/fuel-wipe-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -152,6 +152,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/logo-fade-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/radar-wipe.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/radar-wipe-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -197,6 +208,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/speed-wipe.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/speed-wipe-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},

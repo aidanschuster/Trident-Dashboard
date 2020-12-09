@@ -1,10 +1,9 @@
 import { gsap } from "gsap";
 
-export function gaugesDisplay() {
-    var gaugesTL = gsap.timeline();
+export function radarDisplay() {
+    var radarWipeTL = gsap.timeline();
 
-    gaugesTL.to("#fuel", { duration: .5, translateY: -100 })
-    return gaugesTL;
+    return radarWipeTL;
 }
 
 var RAD = Math.PI / 180;
@@ -15,9 +14,9 @@ var clipPath = document.querySelector("#arcPath");
 var arc = {
     start: 360,
     end: 0,
-    cx: 250,
-    cy: 250,
-    r: 150
+    cx: 175.64,
+    cy: 164.5,
+    r: 53.5
 };
 
 gsap.to(arc, 3, { end: 360, ease: "none", onUpdate: updatePath });

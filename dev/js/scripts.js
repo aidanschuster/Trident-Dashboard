@@ -10,7 +10,9 @@ import { tridentMorph } from "./trident-morph.js"
 import { logoFade } from "./logo-fade.js"
 import { tentacleSway } from "./tentacle-sway.js"
 import { weaponsDisplay } from "./weapons.js"
-import { gaugesDisplay } from "./gauge-wipe.js"
+import { fuelDisplay } from "./fuel-wipe.js"
+import { radarDisplay } from "./radar-wipe.js"
+import { speedDisplay } from "./speed-wipe.js"
 
 var mainTL = gsap.timeline();
 
@@ -22,7 +24,9 @@ mainTL.add(screenAnimation())
     .add(logoFade(), "morph")
     .add(tridentMorph(), "morph")
     .add(weaponsDisplay())
-    .add(gaugesDisplay())
+    .add(fuelDisplay())
+    .add(radarDisplay())
+    .add(speedDisplay())
 
 
 GSDevTools.create();

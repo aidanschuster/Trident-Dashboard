@@ -1,54 +1,48 @@
 <g id="Fuel-Tank" transform="translate(38.64 111)">
     <circle id="Tank" fill="#5F6EAA" cx="137" cy="53.5" r="53.5" />
-    <g clip-path="url(#fuel-cp)">
+    <path
+        d="M84.599 36.111c4.664.013-4.839 5.03 0 12.716a18.172 18.172 0 003.172 3.75c12.095-6.217 20.86-10.685 26.294-13.405l.612-.306c4.58-2.287 6.554-3.205 5.922-2.755 4.343.013-4.839 5.03 0 12.716a18.172 18.172 0 003.172 3.75c12.095-6.217 20.86-10.685 26.294-13.405l.612-.306c4.58-2.287 6.554-3.205 5.922-2.755 7.227.013-4.839 5.03 0 12.716.928 1.475 2.108 2.834 3.539 4.077 12.321-6.335 21.251-10.89 26.79-13.664l.624-.312c4.67-2.332 6.685-3.271 6.047-2.817 7.227.013-4.839 5.03 0 12.716 2.797 4.444 7.874 7.835 15.228 10.174L211.36 59v.74c.329.09.662.175 1 .26h-1v97H.36V59h1.937C34.1 42.602 49.2 34.972 47.6 36.112c5.304.013-4.839 5.03 0 12.716.928 1.475 2.108 2.834 3.539 4.077 12.321-6.335 21.251-10.89 26.79-13.664l.624-.312c4.67-2.332 6.685-3.271 6.047-2.817z"
+        id="fuel" stroke="#979797" fill="#1AD4FF" clip-path="url(#fuel-cp)" />
+</g>
+<g id="Radar" transform="translate(49.14 279)" clip-path="url(#radar-cp)">
+    <g id="Radar-Rings" stroke="#9B8D4B" stroke-width="3">
+        <circle id="Base-ring" fill="#515465" cx="75.5" cy="75.5" r="75.5" />
+        <circle id="Ring-4" cx="76" cy="75.5" r="60" />
+        <circle id="Ring-3" cx="76" cy="75.5" r="45" />
+        <circle id="Ring-2" cx="76" cy="75.5" r="30" />
+        <circle id="Ring-1" cx="75" cy="75.5" r="15" />
+    </g>
+    <g id="Radar-Crossbars" transform="translate(.5 .5)" stroke="#9B8D4B">
+        <path id="Vertical-Cross" d="M75 0l-.5 150.5" />
+        <path id="Down-Diag-cross" d="M22 22l106 106" />
+        <path id="Up-Diag-Cross" d="M128 22L22 128" />
+        <path id="Horizontal-Cross" d="M151 75H0" />
+    </g>
+    <path id="Sweeper" stroke="#FFFFC2" stroke-width="2" d="M74.5 75L48 7" />
+</g>
+<g id="Speedometer" transform="translate(115.676 466.965)" clip-path="url(#speedometer-cp)">
+    <g id="Speed-dial" stroke="#1AD4FF" stroke-width="17">
         <path
-            d="M84.599 36.111c4.664.013-4.839 5.03 0 12.716a18.172 18.172 0 003.172 3.75c12.095-6.217 20.86-10.685 26.294-13.405l.612-.306c4.58-2.287 6.554-3.205 5.922-2.755 4.343.013-4.839 5.03 0 12.716a18.172 18.172 0 003.172 3.75c12.095-6.217 20.86-10.685 26.294-13.405l.612-.306c4.58-2.287 6.554-3.205 5.922-2.755 7.227.013-4.839 5.03 0 12.716.928 1.475 2.108 2.834 3.539 4.077 12.321-6.335 21.251-10.89 26.79-13.664l.624-.312c4.67-2.332 6.685-3.271 6.047-2.817 7.227.013-4.839 5.03 0 12.716 2.797 4.444 7.874 7.835 15.228 10.174L211.36 59v.74c.329.09.662.175 1 .26h-1v97H.36V59h1.937C34.1 42.602 49.2 34.972 47.6 36.112c5.304.013-4.839 5.03 0 12.716.928 1.475 2.108 2.834 3.539 4.077 12.321-6.335 21.251-10.89 26.79-13.664l.624-.312c4.67-2.332 6.685-3.271 6.047-2.817z"
-            id="fuel" stroke="#979797" fill="#1AD4FF" />
+            d="M155.894 183.32c17.49-16.99 28.356-40.76 28.356-67.07 0-51.639-41.861-93.5-93.5-93.5s-93.5 41.861-93.5 93.5"
+            id="speed-ring-1" transform="rotate(-90 90.75 103.035)" />
+        <path
+            d="M150.144 178.57c17.49-16.99 28.356-40.76 28.356-67.07C178.5 59.861 136.639 18 85 18S-17 59.861-17 111.5"
+            id="speed-ring-2" transform="rotate(-90 80.75 98.285)" />
     </g>
-</g>
-<g clip-path="url(#radar-cp)">
-    <g id="Radar" transform="translate(49.14 279)">
-        <g id="Radar-Rings" stroke="#9B8D4B" stroke-width="3">
-            <circle id="Base-ring" fill="#515465" cx="75.5" cy="75.5" r="75.5" />
-            <circle id="Ring-4" cx="76" cy="75.5" r="60" />
-            <circle id="Ring-3" cx="76" cy="75.5" r="45" />
-            <circle id="Ring-2" cx="76" cy="75.5" r="30" />
-            <circle id="Ring-1" cx="75" cy="75.5" r="15" />
-        </g>
-        <g id="Radar-Crossbars" transform="translate(.5 .5)" stroke="#9B8D4B">
-            <path id="Vertical-Cross" d="M75 0l-.5 150.5" />
-            <path id="Down-Diag-cross" d="M22 22l106 106" />
-            <path id="Up-Diag-Cross" d="M128 22L22 128" />
-            <path id="Horizontal-Cross" d="M151 75H0" />
-        </g>
-        <path id="Sweeper" stroke="#FFFFC2" stroke-width="2" d="M74.5 75L48 7" />
-    </g>
-</g>
-<g clip-path="url(#speedometer-cp)">
-    <g id="Speedometer" transform="translate(115.676 466.965)">
-        <g id="Speed-dial" stroke="#1AD4FF" stroke-width="17">
-            <path
-                d="M155.894 183.32c17.49-16.99 28.356-40.76 28.356-67.07 0-51.639-41.861-93.5-93.5-93.5s-93.5 41.861-93.5 93.5"
-                id="speed-ring-1" transform="rotate(-90 90.75 103.035)" />
-            <path
-                d="M150.144 178.57c17.49-16.99 28.356-40.76 28.356-67.07C178.5 59.861 136.639 18 85 18S-17 59.861-17 111.5"
-                id="speed-ring-2" transform="rotate(-90 80.75 98.285)" />
-        </g>
-        <path id="Speed-Tip" fill="#1AD4FF" transform="scale(-1 1) rotate(-53 0 441.634)"
-            d="M229.157 39.26l-72.334 24.696-.628 7.156 65.11-.09 4.549-18.399z" />
-        <path id="140-Tip" fill="#524841" transform="scale(-1 1) rotate(-90 0 139.835)"
-            d="M33.79 89.045h7l-1.75 27h-3.063z" />
-        <path id="120-Tip" fill="#524841" transform="matrix(1 0 0 -1 0 70.456)" d="M101.69 21.728h7l-1.75 27h-3.062z" />
-        <path id="100-Tip" fill="#524841" transform="scale(-1 1) rotate(-60 0 211.542)"
-            d="M39.853 122.953h7l-1.75 27H42.04z" />
-        <path id="80-Tip" fill="#524841" transform="scale(1 -1) rotate(30 233.47 0)"
-            d="M64.998 30.704h7l-1.75 27h-3.062z" />
-        <path id="60-Tip" fill="#524841" transform="scale(-1 1) rotate(-30 0 428.588)"
-            d="M68.879 144.966h7l-1.75 27h-3.062z" />
-        <path id="40-Tip" fill="#524841" transform="scale(1 -1) rotate(60 162.353 0)"
-            d="M44.531 52.504h7l-1.75 27H46.72z" />
-        <path id="20-Tip" fill="#524841" transform="scale(1 -1) rotate(-30 -27.37 0)"
-            d="M138.332 31.838h7l-1.75 27h-3.063z" />
-        <path id="0-tip" fill="#524841" transform="matrix(-1 0 0 1 209.55 0)" d="M101.275 156.67h7l-1.75 27h-3.062z" />
-    </g>
+    <path id="Speed-Tip" fill="#1AD4FF" transform="scale(-1 1) rotate(-53 0 441.634)"
+        d="M229.157 39.26l-72.334 24.696-.628 7.156 65.11-.09 4.549-18.399z" />
+    <path id="140-Tip" fill="#524841" transform="scale(-1 1) rotate(-90 0 139.835)"
+        d="M33.79 89.045h7l-1.75 27h-3.063z" />
+    <path id="120-Tip" fill="#524841" transform="matrix(1 0 0 -1 0 70.456)" d="M101.69 21.728h7l-1.75 27h-3.062z" />
+    <path id="100-Tip" fill="#524841" transform="scale(-1 1) rotate(-60 0 211.542)"
+        d="M39.853 122.953h7l-1.75 27H42.04z" />
+    <path id="80-Tip" fill="#524841" transform="scale(1 -1) rotate(30 233.47 0)"
+        d="M64.998 30.704h7l-1.75 27h-3.062z" />
+    <path id="60-Tip" fill="#524841" transform="scale(-1 1) rotate(-30 0 428.588)"
+        d="M68.879 144.966h7l-1.75 27h-3.062z" />
+    <path id="40-Tip" fill="#524841" transform="scale(1 -1) rotate(60 162.353 0)"
+        d="M44.531 52.504h7l-1.75 27H46.72z" />
+    <path id="20-Tip" fill="#524841" transform="scale(1 -1) rotate(-30 -27.37 0)"
+        d="M138.332 31.838h7l-1.75 27h-3.063z" />
+    <path id="0-tip" fill="#524841" transform="matrix(-1 0 0 1 209.55 0)" d="M101.275 156.67h7l-1.75 27h-3.062z" />
 </g>
