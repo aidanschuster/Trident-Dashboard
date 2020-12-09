@@ -9,14 +9,14 @@ export function speedDisplay() {
 var RAD = Math.PI / 180;
 var PI_2 = Math.PI / 2;
 
-var clipPath = document.querySelector("#arcPath");
+var clipPath = document.querySelector("#speedArcPath");
 
 var arc = {
     start: 360,
     end: 0,
-    cx: 175.64,
-    cy: 164.5,
-    r: 53.5
+    cx: 216.14,
+    cy: 564.5,
+    r: 126
 };
 
 gsap.to(arc, 3, { end: 360, ease: "none", onUpdate: updatePath });

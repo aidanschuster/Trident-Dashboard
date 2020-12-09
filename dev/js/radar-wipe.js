@@ -9,14 +9,14 @@ export function radarDisplay() {
 var RAD = Math.PI / 180;
 var PI_2 = Math.PI / 2;
 
-var clipPath = document.querySelector("#arcPath");
+var clipPath = document.querySelector("#radarArcPath");
 
 var arc = {
     start: 360,
     end: 0,
-    cx: 175.64,
-    cy: 164.5,
-    r: 53.5
+    cx: 123.14,
+    cy: 354.5,
+    r: 88
 };
 
 gsap.to(arc, 3, { end: 360, ease: "none", onUpdate: updatePath });
