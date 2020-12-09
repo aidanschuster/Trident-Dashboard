@@ -24,9 +24,9 @@ mainTL.add(screenAnimation())
     .add(logoFade(), "morph")
     .add(tridentMorph(), "morph")
     .add(weaponsDisplay())
-    .add(fuelDisplay())
-    .add(radarDisplay())
-    .add(speedDisplay())
+    .add(fuelDisplay(), "gauge")
+    .add(radarDisplay(), "gauge")
+    .add(speedDisplay(), "gauge")
 
 
 GSDevTools.create();
