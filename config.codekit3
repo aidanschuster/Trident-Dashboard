@@ -156,6 +156,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/radar-sweep.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/radar-sweep-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/radar-wipe.js": {
 		"bF": 0,
 		"ft": 64,

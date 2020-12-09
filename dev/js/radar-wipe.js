@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 export function radarDisplay() {
     var radarWipeTL = gsap.timeline();
 
-    radarWipeTL.to(arc, 1, { end: 360, ease: "none", onUpdate: updatePath });
+    radarWipeTL.to(arc, 1, { end: 450, ease: "none", onUpdate: updatePath });
 
     updatePath();
 
@@ -43,8 +43,8 @@ var PI_2 = Math.PI / 2;
 var clipPath = document.querySelector("#radarArcPath");
 
 var arc = {
-    start: 0,
-    end: 0,
+    start: 90,
+    end: 90,
     cx: 123.14,
     cy: 354.5,
     r: 88

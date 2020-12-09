@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 export function speedDisplay() {
     var speedWipeTL = gsap.timeline();
 
-    speedWipeTL.to(arc, 1, { end: 360, ease: "none", onUpdate: updatePath });
+    speedWipeTL.to(arc, 1, { end: 480, ease: "none", onUpdate: updatePath });
 
     updatePath();
 
@@ -43,8 +43,8 @@ var PI_2 = Math.PI / 2;
 var clipPath = document.querySelector("#speedArcPath");
 
 var arc = {
-    start: 0,
-    end: 0,
+    start: 120,
+    end: 120,
     cx: 216.14,
     cy: 564.5,
     r: 126
