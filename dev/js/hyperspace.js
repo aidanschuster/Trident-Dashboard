@@ -18,7 +18,7 @@ export function hyperspace() {
         .to("#engine-blast", { duration: .75, scaleY: 1.5 }, "max")
         .to("#engine-flare", { duration: .75, scaleY: 1.5 }, "max")
         .to("#engine-flare", { duration: .35, scale: 1.5, yoyo: true, repeat: 4 }, "hyper")
-        .to("#Speed-Needle", { duration: 2.5, rotation: 150 }, "hyper")
+        .to("#Speed-Needle", { duration: 2.5, rotation: 180 }, "hyper")
         .fromTo("#Speed", { duration: .5, drawSVG: "35%" }, { duration: 2.5, drawSVG: "100%" }, "hyper")
         .to("#Engine", { duration: 0.5, alpha: 0 })
 
