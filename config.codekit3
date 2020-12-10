@@ -94,12 +94,28 @@
 		"oAP": "/dev/content/gauges.html",
 		"oF": 0
 		},
+	"/dev/content/hyperspace-text.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/hyperspace-text.html",
+		"oF": 0
+		},
 	"/dev/content/morph-paths.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/morph-paths.html",
+		"oF": 0
+		},
+	"/dev/content/targeting.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/targeting.html",
 		"oF": 0
 		},
 	"/dev/content/trident.kit": {
@@ -160,6 +176,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/fuel-wipe-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/hyperspace.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/hyperspace-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -248,6 +275,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/speed-wipe-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/targeting.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/targeting-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

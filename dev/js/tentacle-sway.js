@@ -50,5 +50,5 @@ export function tentacleSway() {
         .to("#LT-Joint-5", { duration: 1, rotation: 0, translateX: 0, translateY: 0, ease: "none" }, "sway-in")
         .to("#LT-Spear", { duration: 1, rotation: 0, translateX: 35, translateY: 325, ease: "none" }, "sway-in")
 
-    return swayTL.repeat(30)
+    return swayTL.repeat(23)
 }
