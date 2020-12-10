@@ -17,11 +17,14 @@ import { radarSweep } from "./radar-sweep.js"
 import { engineLaunch } from "./engine.js"
 import { V19Chase } from "./targeting.js"
 import { hyperspace } from "./hyperspace.js"
+import { fuelSlosh } from "./fuel-slosh.js"
+
 
 var mainTL = gsap.timeline();
 
 tentacleSway()
 radarSweep()
+fuelSlosh()
 
 mainTL.add(screenAnimation())
     .add(rollAnimation())

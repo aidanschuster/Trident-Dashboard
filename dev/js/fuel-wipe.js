@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 export function fuelDisplay() {
     var fuelTL = gsap.timeline();
     fuelTL.to(arc, 1, { end: 360, ease: "none", onUpdate: updatePath })
-        .from("#fuel", { duration: .5, translateX: -100, translateY: 100 })
+        .from("#Fuel", { duration: .5, translateX: -100, translateY: 100 })
 
     updatePath();
 
