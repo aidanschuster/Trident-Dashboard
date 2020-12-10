@@ -17,7 +17,7 @@ export function V19Chase() {
     var targetingTL = gsap.timeline();
     targetingTL.from("#targeting-display", { duration: 0.75, alpha: 0 }, "blip")
         .from("#blip", { duration: 0.25, alpha: 0 }, "blip")
-        .from("#V19", { duration: 0.5, alpha: 0 })
+        .from("#V19", { duration: 0.5, alpha: 0 }, "chase")
         .fromTo("#Speed", { duration: .5, drawSVG: "25%" }, { duration: 2.5, drawSVG: "60%" }, "chase")
         .to("#Speed-Needle", { duration: 2.5, rotation: 55 }, "chase")
         .to("#blip", { duration: 2, translateX: 60, ease: "none" }, "chase")
